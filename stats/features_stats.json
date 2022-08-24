@@ -1,0 +1,86 @@
+{
+    "MCOILWTICO": {
+        "indicator": "MCOILWTICO",
+        "train_start": "1986-01-01 00:00:00",
+        "test_start": "2018-12-01 00:00:00",
+        "hw_model": {
+            "mse": 535.1930645244986,
+            "std_mse": 24.228199625986036
+        },
+        "arima_model": {
+            "mse": 657.445009779923,
+            "std_mse": 29.762547379436707
+        },
+        "best_model": "hw"
+    },
+    "WM2NS": {
+        "indicator": "WM2NS",
+        "train_start": "1985-01-01 00:00:00",
+        "test_start": "2018-12-01 00:00:00",
+        "hw_model": {
+            "mse": 12050789.769226044,
+            "std_mse": 4296.476275743452
+        },
+        "arima_model": {
+            "mse": 11514096.88256217,
+            "std_mse": 4105.128795696947
+        },
+        "best_model": "arima"
+    },
+    "FEDFUNDS": {
+        "indicator": "FEDFUNDS",
+        "train_start": "1985-01-01 00:00:00",
+        "test_start": "2018-11-01 00:00:00",
+        "hw_model": {
+            "mse": 227.62288230361455,
+            "std_mse": 233.60723621425686
+        },
+        "arima_model": {
+            "mse": 5.04136345959145,
+            "std_mse": 5.173904190246701
+        },
+        "best_model": "arima"
+    },
+    "GS3M": {
+        "indicator": "GS3M",
+        "train_start": "1985-01-01 00:00:00",
+        "test_start": "2018-11-01 00:00:00",
+        "hw_model": {
+            "mse": 91.0399455276312,
+            "std_mse": 92.98709034337168
+        },
+        "arima_model": {
+            "mse": 3.1145046693756866,
+            "std_mse": 3.181117095222688
+        },
+        "best_model": "arima"
+    },
+    "BAMLC0A4CBBBEY": {
+        "indicator": "BAMLC0A4CBBBEY",
+        "train_start": "1996-12-01 00:00:00",
+        "test_start": "2020-02-01 00:00:00",
+        "hw_model": {
+            "mse": 0.8452118462572319,
+            "std_mse": 0.939742488953478
+        },
+        "arima_model": {
+            "mse": 0.8230656794017979,
+            "std_mse": 0.9151194384677767
+        },
+        "best_model": "arima"
+    },
+    "GDP": {
+        "indicator": "GDP",
+        "train_start": "1985-01-01 00:00:00",
+        "test_start": "2018-08-01 00:00:00",
+        "hw_model": {
+            "mse": 727536.2056321944,
+            "std_mse": 533.7076498756538
+        },
+        "arima_model": {
+            "mse": 753132.7495049128,
+            "std_mse": 552.4848202343121
+        },
+        "best_model": "hw"
+    }
+}
